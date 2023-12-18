@@ -35,7 +35,8 @@ export default function Home() {
         </div>
         <motion.div variants={FADE_DOWN_ANIMATION_VARIANTS} className="">
           <p className="font-mono text-center md:text-start text-[1.8rem] font-semibold text-black">
-            PHD CANDIDATE AT MIT BCS | PSYCHOLINGUISTICS
+            Applied Computer Vision Scientist @ FLX AI, Inc.
+             {/* | Object Recognition */}
           </p>
         </motion.div>
         {/* <div>
