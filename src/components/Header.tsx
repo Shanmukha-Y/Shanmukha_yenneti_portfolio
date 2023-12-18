@@ -11,7 +11,7 @@ export default function Header(props: any) {
             <nav className="">
                 <div className="max-w-7xl flex mx-auto  flex-wrap items-center justify-between mx-auto px-2 py-4">
                     <a href="/" className="flex custom-underline-animation items-center space-x-3 rtl:space-x-reverse">
-                        <p className="font-mono text-[1.4rem] font-semibold text-black">Shunmukha Yenneti</p>
+                        <p className="font-mono text-[1.4rem] font-semibold text-black">Shanmukha Yenneti</p>
                     </a>
                     <button onClick={() => setNavBarOpen(!navBarOpen)} data-collapse-toggle="navbar-default" type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden bg-white-100 focus:outline-none focus:ring-2 focus:ring-gray-200 text-black" aria-controls="navbar-default" aria-expanded="false">
                         <span className="sr-only">Open main menu</span>
