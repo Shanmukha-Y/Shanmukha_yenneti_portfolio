@@ -18,10 +18,28 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
+  background: white
     rgb(var(--background-start-rgb));
 }
+
+.custom-underline-animation {
+  @apply relative inline-block;
+  /* Other styling as needed */
+}
+
+.custom-underline-animation::after {
+  content: '';
+  @apply absolute bg-blue-500 h-0.5 opacity-0 transition-all duration-300 ease-out;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  /* z-index: -40; */
+}
+
+.custom-underline-animation:hover::after {
+  @apply opacity-100;
+  left: 0;
+  right: 0;
+  /* z-index: -40; */
+}
+
